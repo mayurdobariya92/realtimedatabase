@@ -78,6 +78,7 @@ TextEditingController tcontact = TextEditingController();
   }
   Future<bool>goback()
   {
+    print(0);
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
       return viewdata();
     },));
